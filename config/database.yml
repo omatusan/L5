@@ -25,7 +25,7 @@ production:
   adapter: postgresql
   encoding: unicode
   pool: 5
-  database: test_render_yqa1
-  username: test_render_yqa1_user
+  database: render_yqa1
+  username: render_yqa1_user
   password: <%= ENV['MYSITE_DATABASE_PASSWORD'] %>
   url: <%= ENV['DATABASE_URL'] %>
